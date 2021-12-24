@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div class="container">
+
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#" class="active">Food,LLC</a>
+  <div id="myLinks">
+    <a href="#">Chicken</a>
+    <a href="#">Cake</a>
+    <a href="#">Sushi</a>
+  </div>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<h2>Our Menu</h2>
+
+<div class="row">
+
+ <div class="col-lg-4 col-md-6 col-sm-12" id="container">
+    <p>Chicken is the most common type of poultry in the world. Owing to the relative ease and low cost of raising chicken in comparison to mammals such as cattle or hogs chicken meat and chicken eggs have become prevalent in numerous cuisines.
+	<p id="p1">Chicken</p>
+ </div>
+ 
+ <div class="col-lg-4 col-md-6 col-sm-12" id="container">
+    <p>Cake is a form of sweet food made from flour, sugar, and other ingredients, that is usually baked. In their oldest forms, cakes were modifications of bread, but cakes now cover a wide range of preparations that can be simple or elaborate.
+    <p id="p2">Cake</p>
+ </div>
+
+  <div class="col-lg-4 col-md-12 col-sm-12" id="container">
+    <p>Sushi is a traditional Japanese dish of prepared vinegared rice, usually with some sugar and salt, acompanied by a variety of ingredients, such as seafood, often raw, and vegetables. Styles of sushi and its presentation vary widely.
+    <p id="p3">Sushi</p>
+ </div>
+
+</div>	
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+</script>
+
+</body>
+</html>
